@@ -1,0 +1,28 @@
+/*admin:
+admin dashboard-admin.html/admin.css
+admin acc page- admin_page.php
+admin acc page update- admin_profile_update.php
+admin homepage- admin_home.html >
+
+user:
+user acc page- user_page.php
+user acc page update- user_profile_update.php
+user homepage- home.html
+
+login
+register.php ,login.php, logout.php, (config .php-database)
+
+----------------------------------------------------
+
+dumptruck scheduling;           dumptruck view- indexnew.php 
+schedule_create.php
+schedule_view.php
+schedule_edit.php
+index.php                   (code.php/ dbcon.php -database)
+
+---------------------------------------------
+bulk truck scheduling;
+request form- req_create.php
+
+municipal.php-list of truck orders
+req_edit-accept/decline order

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ManageLanka/ContactUs</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/1.css">
+  <link rel="stylesheet" href="CSS/2.css">
+  <link rel="stylesheet" href="CSS/3.css">
+  <link rel="stylesheet" href="CSS/4.css">
+
+</head>
+
+<body class="ml-margin ml-light-green">
+  </header>
+  <!-- Navigation bar with links -->
+  <div class="navBar ml-dark-greenie blackText">
+    <a href="#"><img src="Images/logo-removebg.png" class="left tagML ml-dark-greenie" width="190px"></a>
+    <a href="login.php" class="ml-hide-small navBar-item buttonML ml-mobile ml-medium ml-right"
+      style="margin-top:10px;">LOGIN/REGISTER</a>
+    <a href="#Contact" class="ml-hide-small navBar-item buttonML ml-mobile ml-medium ml-right"
+      style="margin-top:10px;">CONTACT US</a>
+    <a href="About Us.html" class="ml-hide-small navBar-item buttonML ml-mobile ml-medium ml-right"
+      style="margin-top:10px;">ABOUT US</a>
+    <a href="#" class="ml-hide-small navBar-item buttonML ml-mobile ml-medium ml-right"
+      style="margin-top:10px;">HOME</a>
+    <a href="javascript:void(0)" class="navBar-item buttonML ml-right ml-hide-medium ml-hide-large"
+      style="margin-top:10px;" onclick="myFunction()"> &#9776;</a>
+  </div>
+
+  <div id="demo" class="navBar-block whiteBg ml-hide ml-hide-large ml-small">
+    <a href="#" class="navBar-item buttonML">HOME</a>
+    <a href="About Us.html" class="navBar-item buttonML">ABOUT US</a>
+    <a href="#Contact" class="navBar-item buttonML">CONTACT US</a>
+    <a href="login.php" class="navBar-item buttonML">LOGIN/REGISTER</a>
+  </div>
+  </header>
+  <br><br><br><br>
+  <div class="ml-content" style="max-width:1600px">
+
+
+    <!--Contact -->
+    <div class="whiteBg" id="Contact" style="border:1mm inset black">
+      <div class="ml-container ml-padding-40-16">
+        <div class="ml-center ml-padding-40-16">
+          <h2 class="ml-wide">CONTACT</h2>
+          <p class="ml-opacity"><i></i></p><br>
+          <p class="whiteBg blackText ml-center">
+            Got a question? We'd love to hear, We will help you as soon as posible.
+          </p>
+        </div>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="ml-input ml-padding-16 ml-border" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="ml-input ml-padding-16 ml-border" type="text" placeholder="E-mail" required name="E-mail">
+          </p>
+          <p><input class="ml-input ml-padding-16 ml-border" type="datetime-local" placeholder="Date and time" required
+              name="date" value="2022-11-16T20:00"></p>
+          <p><input class="ml-input ml-padding-16 ml-border" type="text" placeholder="Subject" required name="Subject">
+          </p>
+          <p><textarea class="ml-input ml-padding-16 ml-border" placeholder="Message" required name="Message"
+              rows="5"></textarea></p>
+          <p><button class="buttonML roundBorder ml-pale-green ml-block ml-text-white" type="submit">SEND
+              MESSAGE</button></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer. This section contains an ad for social media accounts of managelanka. -->
+  <footer class="ml-container ml-dark-greenie ml-center ml-margin-top">
+    <p>Find us on social media.</p>
+    <i class="fa fa-facebook-official ml-hover-opacity"></i>
+    <i class="fa fa-instagram ml-hover-opacity"></i>
+    <i class="fa fa-snapchat ml-hover-opacity"></i>
+    <i class="fa fa-pinterest-p ml-hover-opacity"></i>
+    <i class="fa fa-twitter ml-hover-opacity"></i>
+    <i class="fa fa-linkedin ml-hover-opacity"></i>
+    <br><br>
+    <div class="ml-row-padding ml-footer" style="float:left;width: 100%;">
+      <div class="ml-third left-align ml-hide-small">
+        <a href="Home.html"><img src="Images/logo-removebg.png" class="left tagML ml-dark-greenie" width="180px"></a>
+      </div>
+      <div class="ml-third">
+        <i><a href="About Us.html">ABOUT US</a><br>
+          <a href="privacyPolicy.html">PRIVACY POLICY</a><br>
+          <a href="faq.html">FAQ</a></i>
+      </div>
+      <div class="ml-third ">
+        <i><a
+            href="https://www.google.com/maps/place/Indian+Bank/@6.9364406,79.8281313,15z/data=!4m10!1m2!2m1!1sIndian+Bank+near+Fort,+Colombo!3m6!1s0x3ae25926b85d1b33:0x42d616e056bd9173!8m2!3d6.9364406!4d79.8456408!15sCh5JbmRpYW4gQmFuayBuZWFyIEZvcnQsIENvbG9tYm8iA4gBAZIBBGJhbmvgAQA!16s%2Fg%2F11b_004t3b">
+            LOCATE US
+          </a></i>
+      </div>
+    </div>
+    <br><br><br>
+    <h6>&reg; 2022 Magma. All rights reserved. The ManageLanka name, logos, and related marks are trademarks of Magma.
+    </h6>
+  </footer>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("demo");
+      if (x.className.indexOf("ml-show") == -1) {
+        x.className += " ml-show";
+      } else {
+        x.className = x.className.replace(" ml-show", "");
+      }
+    }
+  </script>
+
+</body>
+
+</html>
